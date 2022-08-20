@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Hello world</h1>
+    {% for n in muchacha %}
+        <p>{{ n.name }}</p>
+        <p>{{ n.text }}</p>
+    {% endfor %}
+    <a href="{% url 'app2index' %}">GO TO app 2</a>
+</body>
+</html>
